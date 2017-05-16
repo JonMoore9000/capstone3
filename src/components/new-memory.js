@@ -22,6 +22,7 @@ export default class AddMemory extends React.Component {
           <input placeholder="Place"></input><br></br>
           <input placeholder="time"></input><br></br>
           <input placeholder="notes"></input><br></br>
+          <button className="save" onClick = {() => this.setEditing(false)}>Save</button>
         </form>
       );
     }

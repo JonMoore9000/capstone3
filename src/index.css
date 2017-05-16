@@ -26,14 +26,39 @@ button {
   margin-bottom: 10px;
   background-color: white;
   color: #6666FF;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   transition: .6s;
 }
 
 button:hover {
-  background-color: #999;
+  background-color: #6666FF;
   color: white;
+}
+
+.save:hover {
+    background-color: #ccc !important;
+    color: black;
+}
+
+p {
+  color: black;
+}
+
+.form {
+  border: 5px solid white;
+  border-radius: 3px;
+  background-color: #6666FF;
+}
+
+input {
+  width: 220px;
+  padding: 15px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: -5px;
+  border: 3px solid white;
+  border-radius: 3px;;
 }
 
 .hide {
