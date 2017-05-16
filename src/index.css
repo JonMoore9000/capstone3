@@ -1,5 +1,41 @@
 body {
-  margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #6666FF;
+}
+
+.container {
+  text-align: center;
+  background-color: #B2B2FF;
+  padding: 30px;
+  width: 400px;
+  margin-top: 10%;
+  margin-left: 30%;
+  border-radius: 5px;
+  border: 5px solid white;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  width: 220px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: #6666FF;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: .6s;
+}
+
+button:hover {
+  background-color: #999;
+  color: white;
+}
+
+.hide {
+  display: none;
 }
