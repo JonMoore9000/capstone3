@@ -11,7 +11,7 @@ export default class Journal extends React.Component {
   render() {
   return(
     <div className="container">
-      <p>A journal that allows the user to document their travels and look back and see where they have been.</p>
+      <p className="home-info">A journal that allows the user to document their travels and look back and see where they have been.</p>
       <AddMemory />
       <br></br>
       <OldMemory />
