@@ -1,12 +1,13 @@
 import React from 'react';
 
 export default function AddForm(props) {
-    return(
-      <form className="form hide">
-        <h5 className="h5">Add a Memory</h5>
-        <input placeholder="Place"></input>
-        <input placeholder="time"></input>
-        <input placeholder="notes"></input>
-      </form>
-    );
+  return(
+    <form className="form">
+      <h4>Add a Memory</h4><br></br>
+      <input placeholder="place"></input><br></br>
+      <input placeholder="time"></input><br></br>
+      <input placeholder="notes"></input><br></br>
+      <button className="save" onClick={() => this.setEditing(false)}>Save</button>
+    </form>
+  );
   }

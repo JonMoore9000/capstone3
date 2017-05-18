@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 export default class AddMemory extends React.Component {
   constructor(props) {
@@ -19,15 +20,15 @@ export default class AddMemory extends React.Component {
       return(
         <form className="form">
           <h4>Add a Memory</h4><br></br>
-          <input placeholder="Place"></input><br></br>
+          <input placeholder="place"></input><br></br>
           <input placeholder="time"></input><br></br>
           <input placeholder="notes"></input><br></br>
-          <button className="save" onClick = {() => this.setEditing(false)}>Save</button>
+          <button className="save" onClick={() => this.setEditing(false)}>Save</button>
         </form>
       );
     }
       return (
-        <button onClick = {() => this.setEditing(true)}>Make a Memory</button>
+        <Link to="/add"><button onClick={() => this.setEditing(true)}>Make a Memory</button></Link>
       );
   }
 }
