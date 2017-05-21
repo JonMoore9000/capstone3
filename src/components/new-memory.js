@@ -11,7 +11,7 @@ export default class AddMemory extends React.Component {
 
   render() {
       return (
-        <Link to="/add"><button onClick={() => this.setEditing(true)}>Make a Memory</button></Link>
+        <Link to="/add"><button>Make a Memory</button></Link>
       );
   }
 }
