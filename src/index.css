@@ -45,7 +45,8 @@ h3 {
 }
 
 .title-journey:hover {
-  color: #B2B2FF;
+  /*color: #B2B2FF;*/
+  text-shadow: 3px 3px 3px black;
 }
 
 button {
